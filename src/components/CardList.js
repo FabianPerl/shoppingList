@@ -1,14 +1,14 @@
 import React from 'react';
-import GithubCard from './GithubCard';
+import FoodCard from './FoodCard';
 
 class CardList extends React.Component {
     render() {
       let githublist = this.props.data || [];
 
       return ( 
-        <div>
-          {githublist.map(profile => <GithubCard {...profile} key={profile.name} />)}
-        </div>
+        <ul>
+          {githublist.map(profile => <FoodCard {...profile} key={profile.name} />)}
+        </ul>
       );
     }
 }
