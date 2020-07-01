@@ -2,12 +2,23 @@
   text-align: center;
 }
 
+.Card-Item {
+  list-style: none;
+  text-align: left;
+}
+
 .Card-Text {
   color: #03a9f4;
 }
 
+.Header {
+  background: -webkit-linear-gradient(135deg, #29d5ff 10%, #6c03a8 90%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .App-header {
-  background-color: #d8d7d7;
+  background-color: #fcfcfc;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
